@@ -1,6 +1,6 @@
 # music_sensibility
 To detect music taste profile of Spotify users and provide recommendations . 
-This application has access to a database of different kinds of music with attributes such as dancebility, energy, decade it belongs to, artist, acoustics, instrumentalness, popularity etc . This data is clustered. 
+This application has access to a database of different kinds of music with attributes such as dancebility, energy, decade it belongs to, artist, acoustics, instrumentalness, popularity etc . This data is clustered using KMeans.
 Given the user's favorite song, this aplication will locate the song in the cluster, then compare other songs closer to the favorite song located and recommend a playlist based on filters such as danceability & energy levels.
 
 
